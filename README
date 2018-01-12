@@ -17,3 +17,5 @@ you can change "liao"/"linrong"/"liaolinrong" in the script to your own "user"/"
 usage:
 
 sh l2tp_install.sh IP
+-------------------------------
+重启机器后可能要执行一下 sysctl -p
