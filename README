@@ -1,0 +1,19 @@
+pptpd_install.sh:
+
+pptp server install shell script on centos7.x
+
+you can change "liao"/"linrong" in the script to your own "user"/"password"
+
+usage:
+
+sh pptpd_install.sh
+------------------------------
+l2tp_install.sh:
+
+l2tp server install script on centos7.x
+
+you can change "liao"/"linrong"/"liaolinrong" in the script to your own "user"/"password"/"Encryption key"
+
+usage:
+
+sh l2tp_install.sh IP
