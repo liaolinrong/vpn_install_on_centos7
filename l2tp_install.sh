@@ -75,13 +75,15 @@ net.ipv4.conf.all.rp_filter = 0
 net.ipv4.conf.default.rp_filter = 0
 net.ipv4.conf.venet0.rp_filter = 0
 net.ipv4.conf.venet0.arp_filter = 0
+net.ipv4.conf.eth0.rp_filter = 0
+net.ipv4.conf.lo.rp_filter = 0
 EOF
 
 
 sysctl -p
 
-echo 0 > /proc/sys/net/ipv4/conf/eth0/rp_filter
-echo 0 > /proc/sys/net/ipv4/conf/lo/rp_filter
+#echo 0 > /proc/sys/net/ipv4/conf/eth0/rp_filter
+#echo 0 > /proc/sys/net/ipv4/conf/lo/rp_filter
 
 systemctl ipsec start
 ipsec verify
