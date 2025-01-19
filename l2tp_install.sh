@@ -3,7 +3,7 @@
 
 if [ $# != 1 ]; then
     echo "USAGE: $0 IP" >/dev/stderr
-    echo " e.g.: $0 192.168.48.126" >/dev/stderr
+    echo " e.g.: $0 192.168.48.126(内网地址)" >/dev/stderr
     exit 1;
 fi
 
